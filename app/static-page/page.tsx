@@ -1,4 +1,4 @@
-export default function () {
+export default function StaticPage() {
   return (
     <div className="flex flex-col justify-center">
       <div className="flex justify-center">
@@ -12,12 +12,13 @@ export default function () {
             that search engines can easily crawl and index this page, boosting
             its SEO. Plus, serving static content leads to faster load times and
             a smoother user experience. And if I need interactivity, Next.js
-            allows to use the "use client" directive for specific components.
+            allows to use the &quot;use client&quot; directive for specific
+            components.
           </div>
           <br />
           <div>
-            Pretty cool, right? Now navigate to the 'Client Page' to check how
-            interactivity is added is added in Next.js!
+            Pretty cool, right? Now navigate to the &apos;Client Page&apos; to
+            check how interactivity is added is added in Next.js!
           </div>
         </div>
       </div>
