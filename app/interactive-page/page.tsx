@@ -5,9 +5,9 @@ import { useState } from "react";
 export default function () {
   const [count, setCount] = useState(0);
   return (
-    <div className="flex flex-col h-screen justify-center">
+    <div className="flex flex-col justify-center">
       <div className="flex justify-center">
-        <div className="flex flex-col p-20 md:p-50 lg:p-100">
+        <div className="flex flex-col px-20 md:px-50 lg:px-100 pt-50">
           <div className="text-3xl font-bold p-4 pl-0">
             Welcome to Interactive Page
           </div>
@@ -21,7 +21,7 @@ export default function () {
           <div
             className="border rounded-2xl p-2 w-fit cursor-pointer"
             onClick={() => {
-              setCount(count + 1);
+              setCount((count) => count + 1);
             }}
           >
             count is {count}

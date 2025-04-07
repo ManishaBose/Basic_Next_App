@@ -1,8 +1,8 @@
 export default function () {
   return (
-    <div className="flex flex-col h-screen justify-center">
+    <div className="flex flex-col justify-center">
       <div className="flex justify-center">
-        <div className="flex flex-col p-20 md:p-50 lg:p-100">
+        <div className="flex flex-col px-20 md:px-50 lg:px-100 pt-20">
           <div className="text-3xl font-bold p-4 pl-0">
             Welcome to Static Page
           </div>
